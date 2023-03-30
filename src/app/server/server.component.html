@@ -1,1 +1,16 @@
-<p>Ola meu primeiro componente</p>
+<p>{{ 'The Server' }} with Id {{ serverId }} if {{ serverStatus }} </p>
+
+<input type="text" (input)="onUpdateServerName($event)">
+<button class="buttonserver" [disabled]="!allowNewServer" (click)="onCreateServer()">Press me</button>
+<p [innerText]="serverCreationStatus"></p>
+<p [innerText]="serverName"></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h2 class="homework3">HomeWork 3</h2>
+
+<label for="">Username: </label><input type="text" class="homework3input" [(ngModel)]="userName" />
+<p> {{ userName }} </p>
+<button class="btn btn-primary" [disabled]="checkUserNameNotEmpty()" (click)="resetUserName()">Reset User</button>
