@@ -1,7 +1,7 @@
 .buttonserver {
     height: 40px;
     width: 120px;
-    margin: 5%;
+    margin: 1%;
     background-color: #52a6fa;
 }
 
@@ -10,4 +10,8 @@
     width: 120px;
     margin: 1%;
     background-color: red;
+}
+
+.online {
+    color: white;
 }

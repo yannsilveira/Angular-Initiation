@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { SuccessComponent } from './success-alert/success-alert.component';
 import { WarningAlert } from './warning-alert/warning-alert.component';
+import { Assignment3 } from './assignment3/assignment3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     SuccessComponent,
-    WarningAlert
+    WarningAlert,
+    Assignment3
   ],
   imports: [
     BrowserModule,
